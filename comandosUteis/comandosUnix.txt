@@ -1,0 +1,12 @@
+Comandos Unix
+
+cd <caminhoDoArquivo> --> Movimentação pelos diretórios, ".." significa que é para voltar um diretório;
+mkdir <nomeDoDiretorio> --> Cria um novo diretório;
+touch <nomeDoArquivo> --> Cria um novo arquivo;
+mv <nomeDoArquivo> <caminhoDoDiretorio> --> Move o arquivo para outra pasta;
+mv <nomeDoArquivo> <novoNomeDoArquivo> --> Altera o nome do arquivo;
+cp <nomeDoArquivo> <caminhoDoDiretorio> --> Copia o arquivo para o diretório especificado;
+ls --> Lista o que há no diretório;
+ls -a --> Tag "-a" significa "all". Lista tudo o que há no diretório, incluindo o que está oculto;
+rm --> Remove um arquivo;
+rm -r -f --> Tag "-r" significa "recursive", ele passará por tudo que há dentro da pasta. Tag "-f" signifa "force", ele irá forçar a execução, sem pedir permissão. Remove todos os arquivos de um diretório, incluindo o diretório;
